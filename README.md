@@ -1,5 +1,5 @@
 # C++ Dynamic Class Loading 
-## Runtime Compilation and State Management 
+## Runtime Compilation (HotLoading) and State Management 
 
 
 ### Scope - Proof Of Concept
