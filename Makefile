@@ -20,7 +20,7 @@ main-static:
 	g++ -std=c++14 watcher.o main.cpp -o dl-static $(FRAMEWORK)
 
 clean:
-	-@rm *~ *.o dltest *.so *.a
+	$(RM) *.o *.so *.a
 
 watcher-standalone:
 	g++ -std=c++14 watcher.cpp -D STANDALONE -o watcher_standalone.so $(FRAMEWORK)
